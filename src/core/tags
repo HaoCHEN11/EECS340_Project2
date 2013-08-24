@@ -1,0 +1,104 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLOSE_CONNECTION	tcp_in.h	/^    CLOSE_CONNECTION,$/;"	e	enum:MappingSomething
+DEBUG_APP	sock_module.cc	14;"	d	file:
+DEBUG_ARP	ethernet_mux.cc	19;"	d	file:
+DEBUG_ICMP	ip_mux.cc	17;"	d	file:
+DEBUG_ICMP	sock_module.cc	17;"	d	file:
+DEBUG_RECV	ethernet_mux.cc	18;"	d	file:
+DEBUG_RECV	icmp_module.cc	19;"	d	file:
+DEBUG_RECV	ip_module.cc	19;"	d	file:
+DEBUG_SEND	ethernet_mux.cc	17;"	d	file:
+DEBUG_SEND	icmp_module.cc	18;"	d	file:
+DEBUG_SEND	ip_module.cc	18;"	d	file:
+DEBUG_TCP	sock_module.cc	16;"	d	file:
+DEBUG_UDP	sock_module.cc	15;"	d	file:
+DIFFUSION_CHECKSUM	ip_module_diffusion.cc	24;"	d	file:
+DIFFUSION_DF_FRAGOFF	ip_module_diffusion.cc	23;"	d	file:
+DIFFUSION_HACK	ip_module_diffusion.cc	19;"	d	file:
+DIFFUSION_ID_DF	ip_module_diffusion.cc	21;"	d	file:
+DIFFUSION_RES_FLAGS	ip_module_diffusion.cc	22;"	d	file:
+DIFFUSION_RES_TOS	ip_module_diffusion.cc	20;"	d	file:
+E_OK	tcp_in.h	/^    E_OK = 0$/;"	e	enum:err_t
+FORCE_ROUTE_THROUGH_GATEWAY	ip_module_diffusion.cc	27;"	d	file:
+HandleTCPStatus	sock_module.cc	/^void HandleTCPStatus(SockRequestResponse * s, int & respond) {$/;"	f
+HandleTCPWrite	sock_module.cc	/^static void HandleTCPWrite(SockRequestResponse * s, int & respond) {$/;"	f	file:
+HandleUDPStatus	sock_module.cc	/^static void HandleUDPStatus(SockRequestResponse * s, int & respond) {$/;"	f	file:
+HandleUDPWrite	sock_module.cc	/^static void HandleUDPWrite(SockRequestResponse * s, int & respond) {$/;"	f	file:
+ICMPState	icmp_module.cc	/^struct ICMPState {$/;"	s	file:
+MappingSomething	tcp_in.h	/^enum MappingSomething {$/;"	g
+OPEN_CONNECTION	tcp_in.h	/^    OPEN_CONNECTION,$/;"	e	enum:MappingSomething
+PORT_BASE	sock_in.h	92;"	d
+Print	icmp_module.cc	/^  std::ostream & Print(std::ostream &os) const { os <<"ICMPState()"; return os;}$/;"	f	struct:ICMPState
+Print	udp_module.cc	/^  std::ostream & Print(std::ostream &os) const { os <<"UDPState()"; return os;}$/;"	f	struct:UDPState
+ProcessAppRequest	sock_module.cc	/^void ProcessAppRequest(SockLibRequestResponse & s, int & respond)$/;"	f
+ProcessICMPMessage	sock_module.cc	/^void ProcessICMPMessage (SockRequestResponse * s, int & respond) {$/;"	f
+ProcessTCPMessage	sock_module.cc	/^void ProcessTCPMessage(SockRequestResponse * s, int & respond) {$/;"	f
+ProcessUDPMessage	sock_module.cc	/^void ProcessUDPMessage (SockRequestResponse * s, int & respond) {$/;"	f
+ResolveSrcPort	sock_module.cc	/^int ResolveSrcPort (int sock, const Connection & c) {$/;"	f
+SOCK_IN_H_INCLUDED	sock_in.h	2;"	d
+SendAppMessage	sock_module.cc	/^static void SendAppMessage(SockRequestResponse * s, int sock) {$/;"	f	file:
+SendICMPRequest	sock_module.cc	/^void SendICMPRequest (SockRequestResponse *s, int sock) {$/;"	f
+SendPacket	ip_module.cc	/^int SendPacket(MinetHandle &ethermux, MinetHandle &arp, Packet &p)$/;"	f
+SendTCPRequest	sock_module.cc	/^void SendTCPRequest (SockRequestResponse * s, int sock) {$/;"	f
+SendUDPRequest	sock_module.cc	/^void SendUDPRequest (SockRequestResponse * s, int sock) {$/;"	f
+TCP_IN_H_INCLUDED	tcp_in.h	2;"	d
+TIME_WAIT_CONNECTION	tcp_in.h	/^    TIME_WAIT_CONNECTION$/;"	e	enum:MappingSomething
+UDPState	udp_module.cc	/^struct UDPState {$/;"	s	file:
+ackno	tcp_in.h	/^    unsigned int ackno;$/;"	m	struct:tcp_hdr
+ackno	tcp_in.h	/^static unsigned int seqno, ackno;$/;"	v
+app	sock_module.cc	/^MinetHandle app;$/;"	v
+chksum	tcp_in.h	/^    unsigned short chksum;$/;"	m	struct:tcp_hdr
+dest	tcp_in.h	/^    unsigned short dest;$/;"	m	struct:tcp_hdr
+err_t	tcp_in.h	/^enum err_t$/;"	g
+flags	tcp_in.h	/^static unsigned char flags;$/;"	v
+handle_mux	tcp_in.h	/^void handle_mux(const MinetHandle &mux, const MinetHandle &sock, Packet & p,$/;"	f
+handle_sock	sock_in.h	/^void handle_sock(const MinetHandle &mux, const MinetHandle &sock,$/;"	f
+icmp	sock_module.cc	/^MinetHandle icmp;$/;"	v
+icmpq	sock_module.cc	/^Queue icmpq;$/;"	v
+ipother	sock_module.cc	/^MinetHandle ipother;$/;"	v
+listeningconnection_process	tcp_in.h	/^void listeningconnection_process( const MinetHandle &mux, TCPState state, ConnectionList<TCPState> &openConnections )$/;"	f
+main	arp_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	ethernet_mux.cc	/^int main(int argc, char * argv[])$/;"	f
+main	icmp_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	ip_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	ip_module_diffusion.cc	/^int main(int argc, char *argv[])$/;"	f
+main	ip_module_routing.cc	/^int main(int argc, char *argv[])$/;"	f
+main	ip_mux.cc	/^int main(int argc, char * argv[])$/;"	f
+main	ipother_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	monitor.cc	/^int main(int argc, char *argv[])$/;"	f
+main	other_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	sock_module.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	tcp_module.cc	/^int main(int argc, char *argv[])$/;"	f
+main	udp_module.cc	/^int main(int argc, char *argv[])$/;"	f
+openconnection_process	tcp_in.h	/^static err_t openconnection_process( const MinetHandle &mux, const MinetHandle &sock, const Packet & p, TCPState state,$/;"	f
+operator <<	icmp_module.cc	/^  friend std::ostream &operator<<(std::ostream &os, const ICMPState& L) {$/;"	f	struct:ICMPState
+operator <<	udp_module.cc	/^  friend std::ostream &operator<<(std::ostream &os, const UDPState& L) {$/;"	f	struct:UDPState
+ports	sock_module.cc	/^PortStatus ports;$/;"	v
+receive_packet	tcp_in.h	/^static void receive_packet( const MinetHandle &mux, const MinetHandle &sock, TCPState & state )$/;"	f
+recvConnection	tcp_in.h	/^static Connection recvConnection;$/;"	v
+recv_data	tcp_in.h	/^static Buffer recv_data;$/;"	v
+send_ack	tcp_in.h	/^static void send_ack( const MinetHandle &mux, TCPState & state )$/;"	f
+send_data	sock_in.h	/^void send_data( const MinetHandle & mux, const Connection & c, TCPState & state )$/;"	f
+send_empty_write_to_application	tcp_in.h	/^static void send_empty_write_to_application( const MinetHandle & sock )$/;"	f
+send_syn	sock_in.h	/^static void send_syn( const MinetHandle &mux, Connection & c, TCPState & state )$/;"	f
+send_synack	tcp_in.h	/^static void send_synack(const MinetHandle & mux, TCPState & state )$/;"	f
+send_write_to_application	tcp_in.h	/^static void send_write_to_application( const MinetHandle & sock, const Buffer &b )$/;"	f
+seqno	tcp_in.h	/^    unsigned int seqno;$/;"	m	struct:tcp_hdr
+seqno	tcp_in.h	/^static unsigned int seqno, ackno;$/;"	v
+src	tcp_in.h	/^    unsigned short src;$/;"	m	struct:tcp_hdr
+tcp	sock_module.cc	/^MinetHandle tcp;$/;"	v
+tcp_hdr	tcp_in.h	/^struct tcp_hdr$/;"	s
+tcphdr	tcp_in.h	/^static tcp_hdr tcphdr;$/;"	v
+tcplen	tcp_in.h	/^static unsigned short tcplen;$/;"	v
+tcpq	sock_module.cc	/^Queue tcpq;$/;"	v
+timewaitconnection_process	tcp_in.h	/^void timewaitconnection_process( )$/;"	f
+udp	sock_module.cc	/^MinetHandle udp;$/;"	v
+udpq	sock_module.cc	/^Queue udpq;$/;"	v
+urgp	tcp_in.h	/^    unsigned short urgp;$/;"	m	struct:tcp_hdr
+usage	arp_module.cc	/^void usage()$/;"	f
+wnd	tcp_in.h	/^    unsigned short wnd;$/;"	m	struct:tcp_hdr

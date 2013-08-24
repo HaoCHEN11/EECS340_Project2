@@ -1,0 +1,14 @@
+Member: Chao SHI, Hao Chen
+added new files:
+
+src/libminet/packet_factory.cc : Utility functions for packets
+src/libminet/packet_factory.h
+src/libminet/connection_factory.cc : Utility functions for connections
+src/libminet/connection_factory.h
+src/libminet/tcp_event.cc : Triggering condition for state transition
+src/libminet/tcp_event.h
+src/libminet/tcp_transit.cc : Actions to be done during state transition
+src/libminet/tcp_transit.h
+src/libminet/tcp_timer.cc : Our wrapper for timer
+
+
